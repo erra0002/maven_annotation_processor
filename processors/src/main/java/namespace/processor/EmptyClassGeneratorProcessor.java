@@ -20,7 +20,7 @@ public class EmptyClassGeneratorProcessor extends AbstractProcessor
     {
         this.trace( "start processing" );
 
-        for ( Element element : roundEnv.getElementsAnnotatedWith( EmptyClassGenerator.class ) )
+        for ( final Element element : roundEnv.getElementsAnnotatedWith( EmptyClassGenerator.class ) )
         {
             this.trace( "variable name: " + element.getSimpleName() );
 
