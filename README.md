@@ -15,3 +15,7 @@ Basic Template for Java Annotation Processing in Intellij with Maven.
 
 #### Intellij
     Build → Rebuild Project
+
+## External Resources
+* [github://m2e-apt-poc](https://github.com/cristcost/m2e-apt-poc)
+* [youtube://Introduction to Annotation Processors](https://www.youtube.com/watch?v=oftONyATc_Q&list=PLCRunnqZiVhlmU83vR_xjoVNi8VFD6YKD)
