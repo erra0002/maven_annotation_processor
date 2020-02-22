@@ -26,7 +26,7 @@ public class EmptyClassGeneratorProcessor extends AbstractProcessor
 
             if ( element.getKind() == ElementKind.CLASS )
             {
-                TypeElement classElement = ( TypeElement ) element;
+                final TypeElement classElement = ( TypeElement ) element;
                 final PackageElement packageElement = ( PackageElement ) element.getEnclosingElement();
 
                 final String qualifiedClassName = classElement.getQualifiedName() + "Generated";
